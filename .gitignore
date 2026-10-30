@@ -1,0 +1,43 @@
+# Secrets and local configuration
+**/.env
+**/.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+**/.npmrc
+**/.pypirc
+*credential*
+*secret*
+# Dependencies and generated/cache output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.next/
+**/.nuxt/
+**/.cache/
+**/cache/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+**/target/
+**/out/
+**/env/
+**/venv/
+**/.venv/
+# Local uploads and database files
+**/uploads/
+*.db
+*.sqlite
+*.sqlite3
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
